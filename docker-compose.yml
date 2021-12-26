@@ -1,9 +1,9 @@
 version: '3.8'
 services:
   student-service:
-    container_name: student-service
+    container_name: t-bot
     build:
-      context: student-service
+      context: t-bot
     restart: always
     ports:
       - 8080:8080
